@@ -25,8 +25,8 @@ public class Nurse extends Person implements Serializable {
 
     @Override
     public String toString() {
-        return super.toString() +
-                "Nurse{" +
+        return "Nurse: " +
+                super.toString() +
                 "overtime=" + overtime +
                 '}';
     }

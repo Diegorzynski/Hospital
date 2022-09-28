@@ -25,8 +25,8 @@ public class Doctor extends Person implements Serializable {
 
     @Override
     public String toString() {
-        return super.toString() +
-                "Doctor{" +
+        return "Doctor: " +
+                super.toString() +
                 "bonus=" + bonus +
                 '}';
     }

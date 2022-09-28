@@ -21,9 +21,5 @@ public class EmployeesTest {
 
         log.trace("Hospital employees {}", hospital.getInfo());
 
-
-
-
     }
-
 }
