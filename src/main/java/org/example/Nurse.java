@@ -1,8 +1,9 @@
 package org.example;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
-public class Nurse extends Person{
+public class Nurse extends Person implements Serializable {
 
     private double overtime;
 

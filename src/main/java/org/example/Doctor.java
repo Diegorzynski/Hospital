@@ -1,8 +1,9 @@
 package org.example;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
-public class Doctor extends Person{
+public class Doctor extends Person implements Serializable {
 
     private double bonus;
 
